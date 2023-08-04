@@ -3,10 +3,9 @@ tailwind.config = {
       extend: {
         backgroundImage: {
           'bannerbackground': "url('images/banner.jpg')",
-<<<<<<< HEAD
+
           'video': "url('images/video.jpg')"
-=======
->>>>>>> origin/master
+
           
         },
 
