@@ -162,11 +162,13 @@ background-image: url("../images/ideas3.jpg");
 }
 
 
-#video{
+#video div{
   background-image: url(../images/video.jpg);
 }
 
-
+.image{
+  background-image: url(../images/mobile.png);
+}
 
 
 

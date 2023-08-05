@@ -14,3 +14,9 @@ $(function(){
 });
 
 
+$("#counter").countMe(10,5);
+$("#counter2").countMe(10,5);
+$("#counter3").countMe(10,5);
+$("#counter4").countMe(10,5);
+$("#counter5").countMe(10,5);
+
