@@ -8,6 +8,16 @@ $(document).ready(function(){
       });
     })
 
+
+$('.slider-main').slick({
+      infinite: true,
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      nextArrow: $('.next'),
+      prevArrow: $('.prev')
+    });
+
+
 $(function(){
   var containerEl = document.querySelector(".mixit_main");
   var mixer = mixitup(containerEl,{animation:{duration:1000}});

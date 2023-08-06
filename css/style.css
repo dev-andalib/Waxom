@@ -172,4 +172,35 @@ background-image: url("../images/ideas3.jpg");
 
 
 
+.img1{
+  background-image: url(../images/post.png);
+}
+.content:hover .img1{
+  background: linear-gradient(0deg,rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/post.png);
+}
+
+.img2{
+  background-image: url(../images/post2.jpg);
+}
+.content:hover .img2{
+  background: linear-gradient(0deg,rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/post2.jpg);
+}
+
+
+.img3{
+  background-image: url(../images/post3.jpg);
+}
+.content:hover .img3{
+  background: linear-gradient(0deg,rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/post3.jpg);
+}
+
+
+.img4{
+  background-image: url(../images/post.png);
+}
+.content:hover .img4{
+  background: linear-gradient(0deg,rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/post.png);
+}
+
+
 
