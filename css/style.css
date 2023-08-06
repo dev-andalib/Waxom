@@ -203,4 +203,8 @@ background-image: url("../images/ideas3.jpg");
 }
 
 
+#partner .footer-img{
+  background: linear-gradient(0deg,rgba(0, 0, 0, .8), rgba(0, 0, 0, .8)), url(../images/footer.jpg);
+}
+
 
