@@ -4,6 +4,7 @@ tailwind.config = {
 
         fontSize: {
           'bigboy': '3.25rem',
+          'smallboy':'2.25rem'
         },
 
         fontFamily: {
