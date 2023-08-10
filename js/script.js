@@ -1,6 +1,4 @@
 
-
-
 $('.slider-main').slick({
       infinite: true,
       slidesToShow: 3,
@@ -8,10 +6,11 @@ $('.slider-main').slick({
       nextArrow: $('.next'),
       prevArrow: $('.prev')
     });
-
+// =========================================IDEA===============================================
 var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
 if (vw <= 829){
+  $(window).resize(function(){location.reload();})
   $(document).ready(function(){
     $('.content_wrap').slick(
 {      infinite: true,
@@ -25,6 +24,7 @@ if (vw <= 829){
 
 
 else if (vw <= 1284) {
+  $(window).resize(function(){location.reload();})
   $(document).ready(function(){
     $('.content_wrap').slick({
         infinite: true,
@@ -37,6 +37,7 @@ else if (vw <= 1284) {
   }
 
 else if (vw > 1043) {
+  $(window).resize(function(){location.reload();})
   $(document).ready(function(){
     $('.content_wrap').slick({
         infinite: true,
@@ -48,8 +49,9 @@ else if (vw > 1043) {
     })
   }
 
+  
 
-
+// =========================================IDEA===============================================
 
 $(function(){
   var containerEl = document.querySelector(".mixit_main");
