@@ -1,12 +1,5 @@
 
-$('.slider-main').slick({
-      infinite: true,
-      slidesToShow: 3,
-      slidesToScroll: 1,
-      nextArrow: $('.next'),
-      prevArrow: $('.prev')
-    });
-// =========================================IDEA===============================================
+// =========================================Content/SLIDER===============================================
 var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
 
 if (vw <= 829){
@@ -19,6 +12,15 @@ if (vw <= 829){
       arrows: false,
       autoplay: true,}
     );
+
+    $('.slider-main').slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      nextArrow: $('.next'),
+      prevArrow: $('.prev')
+    });
+
     })
 }
 
@@ -33,6 +35,14 @@ else if (vw <= 1284) {
         arrows: false,
         autoplay: true,
       });
+      $('.slider-main').slick({
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        nextArrow: $('.next'),
+        prevArrow: $('.prev')
+      });
+
     })
   }
 
@@ -45,6 +55,14 @@ else if (vw > 1043) {
         slidesToScroll: 1,
         arrows: false,
         autoplay: true,
+      });
+
+      $('.slider-main').slick({
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        nextArrow: $('.next'),
+        prevArrow: $('.prev')
       });
     })
   }
@@ -100,3 +118,5 @@ if (vw < 599) {
   $('.nav__menu').show();
 }
 });
+
+
